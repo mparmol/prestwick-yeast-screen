@@ -13,6 +13,13 @@ authors:
 repository-code: "https://github.com/mparmol/prestwick-yeast-screen"
 url: "https://github.com/mparmol/prestwick-yeast-screen"
 license: MIT
+identifiers:
+  - description: "Concept DOI (all versions)"
+    type: doi
+    value: "10.5281/zenodo.20702473"
+  - description: "Version DOI (v1.0.0)"
+    type: doi
+    value: "10.5281/zenodo.20702474"
 keywords:
   - phenotypic screening
   - Prestwick Chemical Library
