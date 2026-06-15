@@ -1,6 +1,6 @@
 # Prestwick Yeast Screen — Analysis Code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.[PAPER_CONCEPT_DOI].svg)](https://doi.org/10.5281/zenodo.[PAPER_CONCEPT_DOI])
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20702473.svg)](https://doi.org/10.5281/zenodo.20702473)
 [![License: MIT](https://img.shields.io/badge/License--code-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC-BY 4.0](https://img.shields.io/badge/License--data-CC--BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -11,7 +11,7 @@ This repository accompanies the manuscript:
 > simulation-validated pipeline combining within-plate B-score
 > correction, median-of-controls normalisation and linear mixed
 > modelling*. **PLOS Computational Biology** (under review, 2026).
-> doi:10.5281/zenodo.[PAPER_CONCEPT_DOI].
+> doi:10.5281/zenodo.20702473.
 
 It contains all the analysis code required to regenerate every
 numerical result and every figure of the paper. The raw OD600
@@ -24,9 +24,9 @@ Zenodo concept record as this repository.
 
 The reusable analysis pipeline is distributed separately as the R
 package [`gcscreen`][gcscreen]
-(doi:10.5281/zenodo.[GCSCREEN_CONCEPT_DOI]).
+(doi:10.5281/zenodo.20702376).
 
-[gcscreen]: https://github.com/[OWNER]/gcscreen
+[gcscreen]: https://github.com/mparmol/gcscreen
 
 ## Summary of the study
 
@@ -131,7 +131,7 @@ From the repository root, with the raw data already in
 
 ```r
 # 1. Install the gcscreen package (R implementation of the pipeline)
-remotes::install_github("[OWNER]/gcscreen")
+remotes::install_github("mparmol/gcscreen")
 
 # 2. Run the primary pipeline scripts in numerical order
 source("code/00_robust_pipeline/P2.1_P2.2_robust_pipeline.R")
@@ -196,7 +196,7 @@ and, if you use the analysis pipeline, the `gcscreen` package. A
 ```
 Parras-Moltó M, García-Ríos E. Triangulating compound effects in
 96-well growth-curve phenotypic screens. PLOS Computational
-Biology, 2026. doi:10.5281/zenodo.[PAPER_CONCEPT_DOI]
+Biology, 2026. doi:10.5281/zenodo.20702473
 ```
 
 ## Licences
@@ -209,9 +209,14 @@ Biology, 2026. doi:10.5281/zenodo.[PAPER_CONCEPT_DOI]
 
 ## Contact
 
-- Marcos Parras-Moltó — mparmol@gmail.com — ORCID
-  [TO COMPLETE]
-- Estéfani García-Ríos — ORCID [TO COMPLETE]
+- **Marcos Parras-Moltó** — mparmol@gmail.com — ORCID
+  [0000-0003-0529-627X](https://orcid.org/0000-0003-0529-627X) —
+  Leitat Technological Center, Applied Microbiology and
+  Biotechnologies, Barcelona, Spain.
+- **Estéfani García-Ríos** — egarcia@icvv.es — ORCID
+  [0000-0001-9028-055X](https://orcid.org/0000-0001-9028-055X) —
+  Instituto de Ciencias de la Vid y del Vino (CSIC, Universidad
+  de La Rioja, Gobierno de La Rioja), Logroño 26007, Spain.
 
 Issues and questions welcome via the GitHub issue tracker. Raw-data
-requests go through email to the corresponding author.
+requests go through email to either corresponding author.
