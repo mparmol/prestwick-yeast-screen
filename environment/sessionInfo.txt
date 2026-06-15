@@ -1,0 +1,9 @@
+# PLACEHOLDER — regenerate by running:
+#   writeLines(capture.output(sessionInfo()),
+#              con = "environment/sessionInfo.txt")
+# at the repository root in R 4.5.x.
+#
+# The expected output includes R version (4.5.x), locale, time zone,
+# attached packages (gcplyr, lme4, lmerTest, brms, rstan, refund,
+# growthcurver, mgcv, irr, pROC, dplyr, tidyr, ggplot2, cowplot, …)
+# and their versions, plus any other packages loaded via namespace.
