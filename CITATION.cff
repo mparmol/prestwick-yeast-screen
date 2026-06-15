@@ -2,42 +2,27 @@ cff-version: 1.2.0
 message: "If you use any part of this repository, please cite the article below."
 title: "Prestwick Yeast Screen — code, data and manuscript"
 version: "1.0.0"
-date-released: 2026-05-XX
+date-released: 2026-06-15
 type: dataset
 authors:
   - family-names: Parras-Moltó
     given-names: Marcos
     email: mparmol@gmail.com
-    orcid: "https://orcid.org/[ORCID — TO COMPLETE]"
-    affiliation: "[Affiliation — TO COMPLETE]"
   - family-names: García-Ríos
     given-names: Estéfani
-    orcid: "https://orcid.org/[ORCID — TO COMPLETE]"
-    affiliation: "[Affiliation — TO COMPLETE]"
-identifiers:
-  - description: "Concept DOI (always latest version)"
-    type: doi
-    value: "10.5281/zenodo.[PAPER_CONCEPT_DOI]"
-  - description: "Version DOI (v1.0.0)"
-    type: doi
-    value: "10.5281/zenodo.[PAPER_VERSION_DOI]"
-repository-code: "https://github.com/[OWNER]/prestwick-yeast-screen"
-url: "https://github.com/[OWNER]/prestwick-yeast-screen"
+repository-code: "https://github.com/mparmol/prestwick-yeast-screen"
+url: "https://github.com/mparmol/prestwick-yeast-screen"
 license: MIT
-license-url: "https://opensource.org/licenses/MIT"
 keywords:
   - phenotypic screening
   - Prestwick Chemical Library
   - Saccharomyces cerevisiae
   - growth curve
-  - OD600
   - B-score
-  - median polish
   - linear mixed model
   - false discovery rate
   - functional principal component analysis
   - Monte Carlo simulation
-  - Bayesian hierarchical model
 preferred-citation:
   type: article
   title: "Triangulating compound effects in 96-well growth-curve phenotypic screens: a benchmarked, simulation-validated pipeline combining within-plate B-score correction, median-of-controls normalisation and linear mixed modelling"
@@ -48,13 +33,3 @@ preferred-citation:
       given-names: Estéfani
   journal: "PLOS Computational Biology"
   year: 2026
-  doi: "[PAPER DOI — TO COMPLETE ON ACCEPTANCE]"
-references:
-  - type: software
-    title: "gcscreen: Kinetic Growth-Curve Analysis for 96-Well Phenotypic Screens"
-    authors:
-      - family-names: Parras-Moltó
-        given-names: Marcos
-    version: "0.1.0"
-    doi: "10.5281/zenodo.[GCSCREEN_CONCEPT_DOI]"
-    url: "https://github.com/[OWNER]/gcscreen"
